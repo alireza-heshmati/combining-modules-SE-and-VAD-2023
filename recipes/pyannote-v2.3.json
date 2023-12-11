@@ -1,0 +1,14 @@
+{
+	"name": "Pyannote",
+	"sincnet_filters": [80,60,60],
+	"sincnet_stride": 40,
+	"sequence_type": "gru",
+	"sequence_nlayers": 2,
+	"sequence_neuron": 64,
+	"sequence_drop_out": 0.1,
+	"sequence_bidirectional": true,
+	"linear_blocks": [128,128,1],
+	"is_onnx": false,
+    	"save_path": "./checkpoints/Pyannote-v2.3.pth",
+    	"save_path_onnx": "./checkpoints/Pyannote-v2.3.onnx"
+}
